@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Tintas y Sistemas Garcor</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Stilos.css" />
+  </head>
+
+  <body>
+    <header>
+      <div id="cabecera">
+        <img id="logo" src="images/logo.svg" alt="logo" />
+        <h2>Tintas y Sistemas Garcor</h2>
+      </div>
+
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li>
+            <a href="productos.html">Productos</a>
+            <ul>
+              <li><a href=""> Computadoras</a></li>
+              <li><a href=""> Tintas</a></li>
+              <li><a href=""> Impresoras</a></li>
+            </ul>
+          </li>
+
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="quienessomos.html">Quienes Somos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="mydiv animate-bg">
+      <h1 id="somos">¿Quienes Somos?</h1>
+      <p class="bordeAnimado">
+        Somos una empresa joven que inicio actividades en el año 2014 en la
+        ciudad de Navojoa, Sonora; donde le proporcionamos a nuestros clientes
+        diferentes productos de computo e impresión, también ofrecemos servicio
+        de mantenimiento y reparación a dichos dispositivos.<br /><br />
+        Siempre ofreciendo la mejor atención al público y resolver todas sus
+        dudas, tratando de satisfacer sus necesidades.
+      </p>
+    </div>
+
+    <footer>
+      <div class="redEmail">
+        <img id="redes" src="images/redes.png" alt="Redes" />
+        <p id="email">
+          Contactanos: <br />Teléfono: 642-120-2250 <br />
+          correo:tintasysistemasgarcor@outlook.com
+        </p>
+      </div>
+
+      <form id="comentarios" action="" method="">
+        <ul>
+          <li>
+            <h2 id="h2coment">Enviar comentarios</h2>
+          </li>
+          <li>
+            <label for="name">Nombre de Usuario:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <br />
+          <li>
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" id="mail" name="user_mail" />
+          </li>
+          <br />
+          <li>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+          <br />
+          <li>
+            <input type="submit" name="enviar" value="Enviar" />
+          </li>
+        </ul>
+      </form>
+    </footer>
+  </body>
+</html>

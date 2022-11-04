@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="CSS/Stilos.css" />
+    <title>Tintas y Sistemas Garcor</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="cabecera">
+        <img id="logo" src="images/logo.svg" alt="logo" />
+        <h2>Tintas y Sistemas Garcor</h2>
+      </div>
+
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li>
+            <a href="productos.html">Productos</a>
+            <ul>
+              <li><a href=""> Computadoras</a></li>
+              <li><a href=""> Tintas</a></li>
+              <li><a href=""> Impresoras</a></li>
+            </ul>
+          </li>
+
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="quienessomos.html">Quienes Somos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article id="introduccion">
+      <p id="parrafo1">
+        <b
+          >"Somos una compañía dedicada a satisfacer las necesidades de nuestros
+          clientes ofreciendo diferentes servicios y productos".</b
+        >
+      </p>
+    </article>
+
+    <section id="productos">
+      <article>
+        <h4 id="h4prod">Venta de Productos</h4>
+        <ul id="ulprod">
+          <li>Tintas</li>
+          <li>Tóners</li>
+          <li>Memorias USB</li>
+          <li>Partes Computadora</li>
+          <li>Partes Impresora</li>
+          <li>Y más...</li>
+        </ul>
+      </article>
+      <img id="imgprod" src="images/tinta.png" alt="Tintas" />
+    </section>
+
+    <section id="mantenimiento">
+      <article>
+        <h4 id="h4mant">Servicio de Mantenimiento</h4>
+        <ul id="ulmant">
+          <li>Mantenimiento Computadoras</li>
+          <li>Mantenimiento Impresoras</li>
+          <li>Formateo de Computadoras</li>
+          <li>Instalación de Programas</li>
+          <li>Y más...</li>
+        </ul>
+      </article>
+      <img id="imgmant" src="images/mant.png" alt="Reparación" />
+    </section>
+
+    <section id="servicios">
+      <article>
+        <h4 id="h4ser">Otros Servicios</h4>
+        <ul id="ulser">
+          <li>Copias</li>
+          <li>Impresiones</li>
+          <li>Engargolado</li>
+          <li>Enmicado</li>
+          <li>Y más...</li>
+        </ul>
+      </article>
+      <img id="imgser" src="images/copia.png" alt="Copias" />
+    </section>
+
+    <footer>
+      <div class="redEmail">
+        <img id="redes" src="images/redes.png" alt="Redes" />
+        <p id="email">
+          Contactanos: <br />Teléfono: 642-120-2250 <br />
+          correo:tintasysistemasgarcor@outlook.com
+        </p>
+      </div>
+
+      <form id="comentarios" action="" method="">
+        <ul>
+          <li>
+            <h2 id="h2coment">Enviar comentarios</h2>
+          </li>
+          <li>
+            <label for="name">Nombre de Usuario:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <br />
+          <li>
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" id="mail" name="user_mail" />
+          </li>
+          <br />
+          <li>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+          <br />
+          <li>
+            <input type="submit" name="enviar" value="Enviar" />
+          </li>
+        </ul>
+      </form>
+    </footer>
+  </body>
+</html>

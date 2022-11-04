@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Tintas y Sistemas Garcor</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Stilos.css" />
+  </head>
+
+  <body>
+    <header>
+      <div id="cabecera">
+        <img id="logo" src="images/logo.svg" alt="logo" />
+        <h2>Tintas y Sistemas Garcor</h2>
+      </div>
+
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li>
+            <a href="productos.html">Productos</a>
+            <ul>
+              <li><a href=""> Computadoras</a></li>
+              <li><a href=""> Tintas</a></li>
+              <li><a href=""> Impresoras</a></li>
+            </ul>
+          </li>
+
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="quienessomos.html">Quienes Somos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1 id="servcioDisp">Servicios que Ofrecemos.</h1>
+
+    <div class="serv1">
+      <p id="Pserv1">
+        Le damos mantenimiento preventivo y correctivo a computadoras e
+        impresoras.
+      </p>
+      <img id="rep3" src="images/rep3.gif" alt="servcio computadora" />
+      <img id="rep2" src="images/rep2.jpg" alt="servcio impresora" />
+    </div>
+    <div class="serv2">
+      <p id="Pserv2">
+        Actualizamos equipos de computo, formateo en instalación de programas
+        como antivirus.
+      </p>
+      <img id="rep1" src="images/rep1.gif" alt="actualizaciones" />
+      <img id="format" src="images/format.gif" alt="formateo" />
+      <img id="virus" src="images/virus.gif" alt="virus" />
+    </div>
+    <div class="serv3">
+      <p id="Pserv3">
+        Ofrecemos servicio de copiado e impresión, al igual que relleno de
+        tintas.
+      </p>
+      <img id="servCopia" src="images/copia.png" alt="copias" />
+      <img id="serImpresion" src="images/impresora.gif" alt="impresiones" />
+      <img id="serRelleno" src="images/tinta1.gif" alt="relleno" />
+    </div>
+
+    <footer>
+      <div class="redEmail">
+        <img id="redes" src="images/redes.png" alt="Redes" />
+        <p id="email">
+          Contactanos: <br />Teléfono: 642-120-2250 <br />
+          correo:tintasysistemasgarcor@outlook.com
+        </p>
+      </div>
+
+      <form id="comentarios" action="" method="">
+        <ul>
+          <li>
+            <h2 id="h2coment">Enviar comentarios</h2>
+          </li>
+          <li>
+            <label for="name">Nombre de Usuario:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <br />
+          <li>
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" id="mail" name="user_mail" />
+          </li>
+          <br />
+          <li>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+          <br />
+          <li>
+            <input type="submit" name="enviar" value="Enviar" />
+          </li>
+        </ul>
+      </form>
+    </footer>
+  </body>
+</html>
