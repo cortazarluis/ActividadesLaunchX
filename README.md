@@ -8,7 +8,9 @@ el proyecto está dividido en 3 carpetas HTML, CSS y JavaScript donde he ido des
 esta idea en cada etapa correspondiente.
 
 Primero al maquetado en HTML.
+
 Segundo la aplicación de CSS.
+
 Tercero se creó una ventana adicional en donde hay un formulario validado por Java Script.
 
 Como podrán ver todavía le falta pulirlo bastante, pero espero arreglarlo para que se implemente
